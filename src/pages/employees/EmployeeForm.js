@@ -69,9 +69,7 @@ export default function EmployeeForm() {
       employeeService.insertEmployee(values);
       resetForm();
     }
-    
   };
-
   return (
     <Form onSubmit={handleSubmit}>
       <Grid container>
